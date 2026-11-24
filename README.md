@@ -18,7 +18,7 @@ Then open http://127.0.0.1:8080/
 
 ## GitHub Pages
 
-`.github/workflows/pages.yml` deploys the site on every push to `main`.
+`.github/workflows/pages.yml` deploys the site on every push to `main`. The build job uploads the site, and a second job deploys that artifact. GitHub Pages cannot see an artifact uploaded in the same job.
 
 Published URL: https://ddunsford.github.io/rackit-day-trading/
 

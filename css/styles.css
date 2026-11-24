@@ -507,6 +507,18 @@ h2 {
   padding-inline: 1.5rem;
 }
 
+.btn-social {
+  --btn: var(--steel-2);
+  --btn-ink: var(--text);
+  width: 100%;
+  min-height: 4.6rem;
+  letter-spacing: 0.16em;
+}
+
+.btn.btn-social:hover {
+  --btn: #343a41;
+}
+
 .btn-soon {
   --btn: var(--steel-2);
   --btn-ink: var(--text);
