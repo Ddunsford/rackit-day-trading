@@ -260,7 +260,7 @@ a {
   text-transform: uppercase;
 }
 
-.hex {
+.scope {
   width: 0.95rem;
   height: 0.95rem;
   flex: 0 0 auto;
@@ -273,7 +273,7 @@ a {
   font-weight: 800;
   font-size: clamp(4.4rem, 10vw, 7.5rem);
   line-height: 0.78;
-  letter-spacing: -0.015em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 

@@ -1,8 +1,8 @@
-# Rackit Day Trading
+# BYLOW
 
 One-page site for the family live trading stream.
 
-See it, Rackit, stack it, it's done.
+Charts, sharp.
 
 Entertainment only, not financial advice.
 
