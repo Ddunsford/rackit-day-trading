@@ -1,23 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Sniper T">
   <rect width="1024" height="1024" fill="#000000"/>
-  <g fill="#FFFFFF">
-    <rect x="211" y="480" width="12" height="220"/>
-    <rect x="169" y="510" width="96" height="130"/>
-    <rect x="447" y="360" width="12" height="260"/>
-    <rect x="405" y="400" width="96" height="160"/>
-    <rect x="683" y="330" width="12" height="270"/>
-    <rect x="641" y="370" width="96" height="150"/>
+  <defs>
+    <clipPath id="badge">
+      <circle cx="512" cy="512" r="448"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#badge)">
+    <rect x="-137.0" y="520" width="10" height="340" fill="#FFFFFF"/><rect x="-161.0" y="540" width="58" height="110" fill="#FFFFFF"/>
+    <rect x="-55.0" y="430" width="10" height="310" fill="#F04A00"/><rect x="-79.0" y="460" width="58" height="160" fill="#F04A00"/>
+    <rect x="27.0" y="560" width="10" height="340" fill="#FFFFFF"/><rect x="3.0" y="580" width="58" height="120" fill="#FFFFFF"/>
+    <rect x="109.0" y="390" width="10" height="290" fill="#F04A00"/><rect x="85.0" y="420" width="58" height="140" fill="#F04A00"/>
+    <rect x="191.0" y="470" width="10" height="330" fill="#FFFFFF"/><rect x="167.0" y="490" width="58" height="130" fill="#FFFFFF"/>
+    <rect x="273.0" y="610" width="10" height="310" fill="#F04A00"/><rect x="249.0" y="640" width="58" height="120" fill="#F04A00"/>
+    <rect x="355.0" y="450" width="10" height="270" fill="#FFFFFF"/><rect x="331.0" y="470" width="58" height="120" fill="#FFFFFF"/>
+    <rect x="437.0" y="350" width="10" height="290" fill="#F04A00"/><rect x="413.0" y="380" width="58" height="160" fill="#F04A00"/>
+    <rect x="519.0" y="500" width="10" height="280" fill="#FFFFFF"/><rect x="495.0" y="520" width="58" height="110" fill="#FFFFFF"/>
+    <rect x="601.0" y="400" width="10" height="270" fill="#F04A00"/><rect x="577.0" y="430" width="58" height="130" fill="#F04A00"/>
+    <rect x="683.0" y="460" width="10" height="230" fill="#FFFFFF"/><rect x="659.0" y="480" width="58" height="80" fill="#FFFFFF"/>
+    <rect x="765.0" y="210" width="10" height="350" fill="#F04A00"/><rect x="741.0" y="248" width="58" height="222" fill="#F04A00"/>
+    <g fill="none" stroke="#F4F5F6" stroke-width="6" stroke-linecap="square">
+      <path d="M550 210H744M796 210H920M770 114V190M770 230V340"/>
+      <circle cx="770" cy="210" r="40"/>
+    </g>
   </g>
-  <g fill="#F04A00">
-    <rect x="329" y="400" width="12" height="290"/>
-    <rect x="287" y="430" width="96" height="190"/>
-    <rect x="565" y="250" width="12" height="360"/>
-    <rect x="523" y="290" width="96" height="250"/>
-    <rect x="801" y="420" width="12" height="260"/>
-    <rect x="759" y="460" width="96" height="140"/>
-  </g>
-  <g fill="none" stroke="#F4F5F6" stroke-width="5" stroke-linecap="square">
-    <path d="M250 250H548M594 250H830M571 145V232M571 268V430"/>
-    <circle cx="571" cy="250" r="52"/>
-  </g>
+  <circle cx="512" cy="512" r="456" fill="none" stroke="#F04A00" stroke-width="18"/>
 </svg>
